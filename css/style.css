@@ -1,0 +1,761 @@
+body{
+    width : 100%;
+    font-size : 16px;
+    margin : auto;
+    font-family: 'Open Sans', sans-serif;
+    background-color : #f2f2f2;
+    color : #666;
+    
+}
+h1,h2,h3{
+    font-family: 'Amaranth', sans-serif;
+}
+
+h2{
+    font-size : 1.5625rem;
+    color : #96b011;
+}
+
+
+            /*HEADER*/
+nav a, .entete a{
+    text-decoration : none;
+    color : white;
+    padding: 0.5rem;
+}
+nav a:hover{
+    background-color : rgba(255,255,255,0.2);
+    padding : 0.5rem;
+}
+header{
+    background-image : url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width : 100%;
+    padding-bottom : 3%;
+    background-color : #96b011;
+}
+header .elu{
+    width : 5%;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+header .fa-shopping-cart{
+    border : 1px solid white;
+    border-radius : 50%;
+    padding : 3%;
+}
+header p{
+    text-align : center;
+    color : white;
+    margin-top : 0;
+    background-color: rgba(0,0,0,0.1);
+	padding: 0.3125rem 0.3125rem;
+}
+.entete{
+    display : flex;
+    justify-content: space-around;
+    align-items :center;
+    margin-bottom : 2%;
+}
+.entete .panier{
+    width : 10%;
+}
+nav{
+    display : flex;
+    justify-content : space-around;
+    margin-top : 5%;
+    width : 68%;
+    margin: auto;
+}
+        /*  CONTENEUR   */
+.conteneur{
+    width : 68.5rem;
+    margin : auto;
+}
+    /*SECTION1-1*/
+h1{
+    font-size : 2.5rem;
+    text-align :center;
+    color : #96b011;
+}
+.noel{
+    width : 100%;
+}
+.section1-1 p{
+    text-align : center;
+} 
+    /*SECTION3-1*/
+.section3-1 h2{
+    text-align: center;
+}
+.section3-1 article:hover a{
+    opacity : 0.5;
+}
+ .section3-1  article:hover  a:hover {
+    opacity : 1;
+} 
+.section3-1 h2::before,.section3-1 h2::after{
+    content:'';
+    width : 23rem;
+    border-bottom : 1px solid  #666;
+    display:inline-block;
+    vertical-align:middle; 
+    margin-left : 1rem;
+    margin-right : 1rem;
+}
+h3{
+    text-align :center;
+    font-size : 1.25rem;
+    color : #666;
+}
+.section3-1{
+    background-color : white;
+    padding : 2%;
+}
+.section3-1 article{
+    display : flex;
+    justify-content : space-around;
+}
+.section3-1 a{
+    text-decoration : none;
+    /*display : inline-block;*/
+    text-align : center;
+    color : #666;
+    font-weight : bold;
+}
+.section3-1 img{
+    display : block;
+
+}
+
+        /*SECTION4-1*/
+.section4-1{
+    display : flex;
+    justify-content : center;
+    margin-top : 2%;
+    background-color : white;
+    padding : 0.5, 1%;
+}
+.section4-1 h2::before,.section4-1 h2::after{
+    content:'';
+    width : 2rem;
+    border-bottom : 1px solid  #666;
+    display:inline-block;
+    vertical-align:middle; 
+    margin-left : 1rem;
+    margin-right : 1rem;
+
+}
+.section4-1 article{
+    padding : 1%;
+    text-align : center;
+    padding-bottom : 3%;
+}
+.section4-1 h3{
+    text-align : left;
+}
+.section4-1 a{
+    text-decoration : none;
+    padding : 3%;
+    background-color : #b09067;
+    color : white;
+    padding-bottom : 2%
+}
+.section4-1 a:hover{
+    opacity : 0.5;
+}
+.section4-1 span{
+    font-weight : bold;
+}
+.section4-1 p{
+    padding : 1%;
+}
+            /*FOOTER*/
+footer{
+    margin-top : 3%;
+    background-image : url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width : 100%;
+    background-color : #96b011;
+}
+        /*SECTION 5 */
+.section5-1{
+    background-color: rgba(0,0,0,0.1);
+    color : white;
+    display : flex;
+    justify-content : space-around;
+    padding-top: 1%
+}
+.section5-1{
+    text-align : center;
+    color: rgba(255,255,255,0.5);
+}
+.section5-1 i{
+    font-size : 1.5rem;
+}
+.section5-1 .fa-truck{
+    transform : rotateY(-180deg);
+}
+.section5-1 .fa-phone{
+    transform : rotateY(-180deg);
+
+}
+        /*SECTION 6 */
+.section6-1{
+    display : flex;
+    justify-content : space-around;
+    margin-bottom : 3%;
+}
+.section6-1 article{
+    display : flex;
+    flex-direction : column;
+    text-align : center;
+    line-height: 1.7rem;
+    
+}
+.section6-1 h2{
+    color : white;
+}
+.section6-1 article a{
+    text-decoration : none;
+    color :rgba(255,255,255,0.5);
+}
+.section6-1 h3{
+    color : white;
+}
+
+            /*LICENCE*/
+.licence {
+    background-color: rgba(0,0,0,0.1);
+    display: block;
+    text-align: center;
+    padding: 25px;
+    color :white;
+    
+    margin : auto;
+}
+
+.licence img {
+    width: 50px;
+}
+
+.licence a{
+    color: white;
+    text-decoration : none;
+    width : 80%;
+}
+        /*PAGE 2*/
+.section1-2{
+    background-color : white;
+    margin-bottom : 5%;
+    margin-top: 5%;
+}.the{
+    padding : 2%;
+}
+.the img{
+    float : left;
+}
+.section1-2 h2::after{
+    content : "";
+    width : 45rem;
+    border-bottom : 1px solid  #666;
+    display:inline-block;
+    vertical-align:middle; 
+    margin-left : 1rem;
+    margin-right : 1rem;
+}
+.section1-2 h2::before{
+    content : "";
+    width : 1rem;
+    border-bottom : 1px solid  #666;
+    display:inline-block;
+    vertical-align:middle; 
+    margin-left : 1rem;
+    margin-right : 1rem;
+}
+
+.clear{
+    clear : both;
+}
+.detail{
+    display : flex;
+    justify-content : space-around;
+    margin : auto;
+    text-align : center;
+    
+}
+.detail article{
+    padding : 0 2% 3% 2%;
+}
+
+.detail img{
+    width : 100%;
+}
+.detail a{
+    text-decoration : none;
+    padding : 3%;
+    background-color : #b09067;
+    color : white;
+    padding-bottom : 2%;
+    padding-top: 2%;
+}
+strong{
+    margin-bottom : 2%
+}
+
+        /*PAGE 3 */
+.conteneur3{
+    width : 68.5rem;
+    margin : auto;
+    background-color : white;
+    padding: 2%;
+}
+.section1-3 h2, .section2-3 h2, .section3-3 h2{
+    color :#666;
+    font-weight: normal;
+    
+}
+.section1-3 h3, .section2-3 h3, .section3-3 h3{
+    text-align : left;
+    color : #96b011;
+    padding-bottom : 2%;
+}
+.section1-3 article h3::after, .section2-3 article h3::after{
+    content : "";
+    width : 49rem;
+    border-bottom : 1px solid  #666;
+    display:inline-block;
+    vertical-align:middle; 
+    margin-left : 1rem;
+    margin-right : 1rem;
+
+}
+.amelie img{
+    float : left;
+    margin-right : 2%;
+    margin-bottom : 2%;
+}
+.xavier img{
+    float : right;
+    margin-right : 2%;
+    margin-bottom : 2%;
+}
+
+.section1-3 h3{
+    padding-top : 2%;
+}
+.section3-3{
+    display : flex;
+    justify-content : center;
+}
+.section3-3 article{
+    text-align : center;
+    padding : 5%;
+    background-color : rgba(150,176,17,0.2)
+}
+.section3-3 article img{
+    width : 5rem;
+}
+        /*PAGE 4*/
+.section1-4 h3{
+    text-align : left;
+}
+.section1-4{
+    display : block;
+}
+.the_blue{
+    display :flex;
+    justify-content: space-between;
+    
+}
+
+}
+.the_blue h3{
+    margin-top : 0;
+}
+.conteneur3 a{
+    text-decoration : none;
+    color : #96b011;
+}
+.avis_clients{
+    text-align : right;
+    width : 26%;
+}
+.fa-heart{
+    color :red;
+}
+ a.add{
+    text-decoration : none;
+    padding : 3%;
+    background-color : #b09067;
+    color : white;
+    width : 100%;
+    margin-top : 10%;
+    text-align : center;
+    display : inline-block;
+}
+select{
+    width : 17rem;
+    background-color: white;
+}
+.star a{
+    display : block;
+}
+article.image{
+    display : flex;
+    justify-content: space-between;
+    text-align : right;
+}
+/* .add_panier{
+    padding-top: 56%;
+} */
+/* .liste_envie{
+    padding-top: 2%;
+} */
+.prix_product{
+    font-size : 1.5rem;
+}
+.section3-4{
+    margin-top : 5%;
+}
+.star i:nth-child(1),.star i:nth-child(2),.star i:nth-child(3),.star i:nth-child(4){
+    color : yellow;
+}
+@media screen and (min-width : 768px) and (max-width : 1024px){
+    /*PAGE1*/
+    .conteneur{
+        width : 100%;
+    }
+    .section3-1 article{
+        flex-wrap : wrap;
+        margin-left : 20%;
+        margin-right : 20%;  
+
+    }
+    .tea1, .tea3{
+        padding-right : 30%;
+        padding-left: 2%;
+        text-align : center;
+    }
+
+    .section4-1{
+        flex-direction : column;
+
+    }
+    .section3-1 h2::before,.section3-1 h2::after{
+        content:'';
+        width : 14rem;
+        border-bottom : 1px solid  #666;
+        display:inline-block;
+        vertical-align:middle; 
+        margin-left : 1rem;
+        margin-right : 1rem;
+    }
+    .section4-1 h2::before,.section4-1 h2::after{
+        content:'';
+        width : 14rem;
+        border-bottom : 1px solid  #666;
+        display:inline-block;
+        vertical-align:middle; 
+        margin-left : 1rem;
+        margin-right : 1rem;
+    
+    }
+    .entete .panier {
+        width: 25%;
+    }
+    .section4-1 a{
+        padding : 1%;
+    }
+    .section4-1 p{
+        padding-left : 2%;
+        padding-right : 2%;
+    }
+    .section5-1 article{
+        margin : 1%;
+    }
+    .section5-1 article p{
+        font-size : 0.70rem;
+    }
+    /*PAGE 2*/
+    .the img{
+        display : none;
+    }
+    .section1-2 h2::after{
+        content: "";
+        width: 34rem;
+        border-bottom: 1px solid #666;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .section1-2 h2::before{
+        display : none;
+    }
+    .section1-2 h2{
+        padding-left : 2%;
+    }
+    .detail{
+    display : block;
+    width : 40%;
+     }
+     .detail article{
+         padding-bottom : 10%;
+     }
+     .entete {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 4%;
+        padding-right: 4%;
+        align-items: center;
+        margin-bottom: 2%;
+     }
+     nav{
+         justify-content : space-around;
+         width : 93%;
+     }
+     nav a{
+         padding-right : 2%;
+     }
+     /*PAGE3*/
+     .conteneur3{
+        width : 96%;
+     }
+     .section1-3 article h3::after, .section2-3 article h3::after {
+        content: "";
+        width: 27rem;
+        border-bottom: 1px solid #666;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    select {
+        width: 12rem;
+        background-color: white;
+    }
+    .avis_clients {
+        width: 29%;
+    }
+}
+@media screen and (max-width : 767px){
+    .conteneur{
+        width : 100%;
+    }
+    section{
+        margin-top : 2%;
+    }
+    .elu{
+        display : none;
+    }
+    nav{
+        text-align: center;
+        flex-direction: column;
+        line-height: 3rem;
+        justify-content : space-around;
+        width : 93%;
+    }
+    .entete {
+        display: flex;
+        align-items : flex-start;
+        flex-direction: column-reverse;
+        margin-bottom: 2%;
+     }
+     .entete .logo{
+        align-self : center;
+     }
+    .section3-1 article{
+        flex-wrap : wrap;
+        margin-left : 20%;
+        margin-right : 20%;  
+
+    }
+    .section3-1 article a{
+        display : inline-block;
+        width :46%;
+    }
+    .tea1, .tea3{
+        padding-right : 30%;
+    }
+
+    .section4-1{
+        flex-direction : column;
+
+    }
+    .section3-1 h2::before,.section3-1 h2::after{
+        content:'';
+        width : 20%;
+        border-bottom : 1px solid  #666;
+        display:inline-block;
+        vertical-align:middle; 
+        margin-left : 1rem;
+        margin-right : 1rem;
+    }
+    .section4-1 h2::before,.section4-1 h2::after{
+        content:'';
+        width : 20%;
+        border-bottom : 1px solid  #666;
+        display:inline-block;
+        vertical-align:middle; 
+        margin-left : 1rem;
+        margin-right : 1rem;
+    
+    }
+    .entete .panier {
+        width: 20%;
+        padding-left : 1%;
+        border-radius: 0 30px 30px 0;
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        display: inline-block;
+        padding: 1%;
+    }
+    .section4-1 a{
+        padding : 1%;
+    }
+    .section4-1 p{
+        padding-left : 2%;
+        padding-right : 2%;
+    }
+    .spanPanier{
+        display : none;
+    }
+    .section1-1, .section2-1{
+        display : none;
+    }
+    .section3-1{
+        padding : 0;
+    }
+    /*PAGE 2*/
+    .the img{
+        display : none;
+    }
+    .the h2::after {
+        content: "";
+        width: 70%;
+        border-bottom: 1px solid #666;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .the h2::before{
+        display:none;
+    }
+    .detail{
+    display : block;
+    width : 40%;
+     }
+     .detail article{
+         padding-bottom : 10%;
+     }
+     nav a{
+         padding-right : 2%;
+     }
+     .tea1, .tea3{
+        padding-right : 0;
+    }
+    .section5-1{
+        flex-wrap :wrap;
+    }
+    .section5-1 article{
+        width : 36%;
+    }
+    .section6-1{
+        flex-direction : column;
+    }
+    /*PAGE3*/
+    .conteneur3 {
+        width : 96%;
+        margin: auto;
+        background-color: white;
+        padding: 2%;
+    }
+    .section1-3 img{
+        display : block;
+        width : 100%;
+    }
+    .xavier img{
+    margin-right : 0;
+    }
+    .section1-3 article h3::after, .section2-3 article h3::after {
+        content: "";
+        width: 30%;
+        border-bottom: 1px solid #666;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .section3-3{
+        flex-direction : column;
+    }
+    /*PAGE4*/
+    .section1-4{
+        display:block;
+        text-align : center;
+    }
+    article.image{
+        display : block;
+        text-align : center;
+    }
+    .the_blue{
+        text-align:center;
+        display : block;
+    }
+    .avis_clients{
+        text-align:center;
+        width : 100%;
+    }
+    .section1-4 h3{
+        text-align:center;
+    }
+    a.add {
+        text-decoration: none;
+        padding: 3%;
+        background-color: #b09067;
+        color: white;
+        width: 59%;
+        margin-top: 10%;
+        text-align: center;
+        display: inline-block
+    }
+    .menu_pc{
+        display : none;
+    }    
+    #open,#close{
+        color : white;
+        display : block;
+        text-align : center;
+    }
+
+    /*menu déroulant en CSS*/
+    #menu_mobile a{
+        margin-top: 5%;
+        display : block;
+    }
+    #menu_mobile:not(:target){
+        display : none;
+    }
+
+    #menu_mobile:target{
+        display : block;
+        position: relative;
+        top: -41px;
+        background-color: #94A531; 
+    }   
+
+
+}
+.ouvert{
+    display : none;
+}
+
+.menu2{
+    display : none;
+}
+
